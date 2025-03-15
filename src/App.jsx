@@ -4,10 +4,11 @@ const App = () => {
 
   const handledownload = () => {
     const link = document.createElement('a');
-    link.href = '/SUJAL(4).pdf'; // Path to the PDF file in the public folder
-    link.download = 'SUJAL(4).pdf'; // Desired file name when downloaded
+    link.href = '/SUJAL (4).pdf'; // Path to the PDF file in the public folder
+    link.download = '/SUJAL (4).pdf'; // Desired file name when downloaded
     link.click();
   }
+
 
   return (
     <div className="min-h-screen bg-gray-100 text-gray-800 flex flex-col justify-center items-center p-8">
@@ -25,7 +26,7 @@ const App = () => {
           </p>
           <div className="flex space-x-4 pt-2">
             <a
-              href="mailto:SUJALDESAI4903@GMAIL.COM"
+              href="mailto:sujaldesai4903@gmail.com"
               className="text-gray-500 hover:text-green-500 transition"
             >
               ✉️
