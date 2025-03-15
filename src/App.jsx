@@ -94,7 +94,7 @@ const App = () => {
         {/* Skills Section */}
         <section className="w-full space-y-4">
           <h2 className="text-2xl font-semibold">Skills</h2>
-          <p className="text-gray-600">Programming: Python, C/C++, HTML/CSS, JavaScript, Java, PHP, Strapi</p>
+          <p className="text-gray-600">Programming: Python, Html, Css, JavaScript, Tailwind Css, Bootstrap, Material Ui, Shadcn Ui, Full Stack Development, MERN Stack</p>
           <p className="text-gray-600">Database: MySQL, SQLite, PostgreSQL</p>
           <p className="text-gray-600">Miscellaneous: Linux, Shell, Microsoft Office, Git</p>
           <p className="text-gray-600">Soft Skills: Time Management, Teamwork, Problem-solving, Documentation</p>
