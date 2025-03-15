@@ -4,8 +4,8 @@ const App = () => {
 
   const handledownload = () => {
     const link = document.createElement('a');
-    link.href = '/SUJAL.pdf'; // Path to the PDF file in the public folder
-    link.download = '/SUJAL.pdf'; // Desired file name when downloaded
+    link.href = '/SujalDesaiResume.pdf'; // Path to the PDF file in the public folder
+    link.download = '/SujalDesaiResume.pdf'; // Desired file name when downloaded
     link.click();
   }
 
